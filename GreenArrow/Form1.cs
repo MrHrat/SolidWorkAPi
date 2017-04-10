@@ -15,5 +15,12 @@ namespace GreenArrow
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Detal1 obj = new Detal1("");
+
+            obj.Bild3d();
+        }
     }
 }
