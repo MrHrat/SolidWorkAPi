@@ -7,3 +7,16 @@ D:\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.exe
 D:\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.pdb
 D:\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.csprojResolveAssemblyReference.cache
 D:\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form2.resources
+D:\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form3.resources
+D:\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form4.resources
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.exe
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.pdb
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\bin\Debug\GreenArrow.exe
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\bin\Debug\GreenArrow.pdb
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.csprojResolveAssemblyReference.cache
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form1.resources
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form2.resources
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form3.resources
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Form4.resources
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.Properties.Resources.resources
+C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\obj\x86\Debug\GreenArrow.csproj.GenerateResource.Cache
