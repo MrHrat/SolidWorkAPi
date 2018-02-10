@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GreenArrow.Bindings" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAEAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Bindings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Dimensions" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAACAAEAAAAAAEAAAAAAAAEAAAAAEA=</HashCode>
+      <FileName>Classmodel\Bindings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Validation" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Bindings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Inequality" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Bindings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.FeatureRevolve" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="GreenArrow.Skeths" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.188" Y="3.25" />
+        <Point X="4.188" Y="2.741" />
+        <Point X="5" Y="2.741" />
+        <Point X="5" Y="2.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgCAgEgAAAAAAAIAAgBQAAIBIA4IgABAgAIAAAAA=</HashCode>
+      <FileName>Classmodel\Feature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.FeatureCut" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="GreenArrow.Skeths" FixedFromPoint="true">
+      <Path>
+        <Point X="4.188" Y="3.25" />
+        <Point X="4.188" Y="2.741" />
+        <Point X="6.75" Y="2.741" />
+        <Point X="6.75" Y="2.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAiAAAAAAAAAAgIEAAECmQACBIKAYMEACgDAAAAAA=</HashCode>
+      <FileName>Classmodel\Feature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.InsertFeatureChamfer" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAAAAAAAAAAAAAAAEAAAAAAAAgAAEAgAABIAAA=</HashCode>
+      <FileName>Classmodel\Feature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Icurve" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Icurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Lines" Collapsed="true">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgABAAAAAAAEGAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Icurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Arcs" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEABAAAAAAAEGCAAAAAAAAAAABAAAAAAACAAAAA=</HashCode>
+      <FileName>Classmodel\Icurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Circles" Collapsed="true">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEABAAAAAAAEAAAAAAAAAAABABAAAAAAACAAAAA=</HashCode>
+      <FileName>Classmodel\Icurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Iitem" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Skeths" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIgEQAEkAQAEAAAAAAAAJgQAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Classmodel\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.BilderParts" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAACAgAIAAAAYAAAEAAAQAAAAAgAAABAAAAAAA=</HashCode>
+      <FileName>Classmodel\Parts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Parts" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAEAAQIAIAAAwAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Classmodel\Parts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.SmartTools" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Parts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
