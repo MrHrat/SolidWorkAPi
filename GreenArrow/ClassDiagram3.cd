@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GreenArrow.BilderParts">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAEAACAgAIAAAAYAAAEAAAAAAAAAgAAABAAAAAAA=</HashCode>
+      <FileName>Classmodel\Parts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Parts">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAEAAQAAIAAAwAAAAAgAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Classmodel\Parts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BilderParts" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GreenArrow.SmartTools">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAgAAAAAQkAAIAACAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Parts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GreenArrow.Iitem">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classmodel\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parts" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

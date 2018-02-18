@@ -110,6 +110,17 @@ namespace GreenArrow
         public Parts()
         {
             item = new BindingList<Iitem>();
+        }
+
+        public BilderParts BilderParts
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }        
 
         public void AddItem(Iitem skt)

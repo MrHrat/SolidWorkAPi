@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="8334d5d7-2b46-41f9-adc2-4e2c5782aa20"
+  name="ДіаграмиВиконання" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="de82b63c-c630-4329-b5d1-9290e8318ba6"
+        name="Користувач"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="486cc68d-9945-44e8-a0b8-16c5e9c1b243"
+            isDerived="false"
+            sourceEndRoleName="Користувач"
+            targetEndRoleName="Відкрити структуру"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="47530330-0247-4665-bdf3-72ad754c336a"
+              LastKnownName="Відкрити структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="64ff3aea-d8da-4619-8c62-8f0441919030"
+                  name="Користувач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a93f8d9-6944-4e17-bde3-b6cc6259e3bd"
+                  name="Відкрити структуру"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b29f6f6c-afe6-4bd2-b1f1-56a65d4babf4"
+            isDerived="false"
+            sourceEndRoleName="Користувач"
+            targetEndRoleName="Зберегти структуру"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a9e25c95-9de1-473a-bdb3-6a217dd87d44"
+              LastKnownName="Зберегти структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44ced01b-067a-4009-95db-3e4881333d98"
+                  name="Користувач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ead6365b-feaa-4617-8e96-1e2b49601ad7"
+                  name="Зберегти структуру"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7f58e434-c59e-4405-928a-5ed30585537c"
+        name="Проектант"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3514a952-4c25-42c5-83ab-0f631885949f"
+            isDerived="false"
+            sourceEndRoleName="Проектант"
+            targetEndRoleName="Створити структуру"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b319393b-339b-44af-af3f-7603c6426da3"
+              LastKnownName="Створити структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0c4ca722-023a-4b5e-89dd-6ecf5d5dd8c2"
+                  name="Проектант"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1dfac0ec-5e4a-4d8d-92fd-e60b49336992"
+                  name="Створити структуру"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="31708692-2a30-48dc-917e-f944012d3d97"
+            isDerived="false"
+            sourceEndRoleName="Проектант"
+            targetEndRoleName="Додати нову структуру "
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3f04d180-ac16-453d-b28b-ca0441c57646"
+              LastKnownName="Розширити функціонал"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="893b70bf-1f9d-477a-be9e-d1e9222dcb0a"
+                  name="Проектант"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="32d34274-c899-4e50-84eb-3e9afe97f440"
+                  name="Додати нову структуру "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="78a8d6e3-9b25-446b-90c5-75b0c8ebebba"
+            isDerived="false"
+            sourceEndRoleName="Проектант"
+            targetEndRoleName="Зберегти структуру"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a9e25c95-9de1-473a-bdb3-6a217dd87d44"
+              LastKnownName="Зберегти структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a02774fa-b6e8-4639-a030-328695472a9f"
+                  name="Проектант"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eebbef52-1f5f-43dd-b66e-762607753d8b"
+                  name="Зберегти структуру"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="47530330-0247-4665-bdf3-72ad754c336a"
+        name="Відкрити структуру"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a9e25c95-9de1-473a-bdb3-6a217dd87d44"
+        name="Зберегти структуру"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0f70342a-7d78-4167-a336-dfbf725f4f0f"
+        name="Змінити розміри"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="e6faea23-04d1-48ca-9f89-8401db713d90">
+            <useCaseMoniker
+              Id="47530330-0247-4665-bdf3-72ad754c336a"
+              LastKnownName="Відкрити структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4f4d35b2-c682-4617-92f4-54374dc63a39"
+        name="Змінити матеріал"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a2526a95-4b50-4edc-ab09-99a0b31182d9">
+            <useCaseMoniker
+              Id="8970ad50-81ea-47a0-b7fc-3a48dddb13df"
+              LastKnownName="Побудувати в SolidWorks"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3ba7b702-7fd3-41d3-9a8e-8750e9180778"
+        name="Відобразити  масові характеристики"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="6a3c5893-5d5c-4944-860d-be0354e4db45">
+            <useCaseMoniker
+              Id="8970ad50-81ea-47a0-b7fc-3a48dddb13df"
+              LastKnownName="Побудувати в SolidWorks"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b319393b-339b-44af-af3f-7603c6426da3"
+        name="Створити структуру"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b3c89a06-e67c-4a62-b989-bde8d335e88d"
+        name="Створити скеч"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b63f2e18-ecb5-47d1-a008-55eaeadf118f">
+            <useCaseMoniker
+              Id="b319393b-339b-44af-af3f-7603c6426da3"
+              LastKnownName="Створити структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="82df7c91-dd93-44d6-b329-4b3dd746d062"
+        name="Додати криві"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="68b02781-d91d-43d3-95fd-acafb2256bf5">
+            <useCaseMoniker
+              Id="b3c89a06-e67c-4a62-b989-bde8d335e88d"
+              LastKnownName="Створити скеч"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7695cf15-a6c0-4e1b-a603-f89b221a0376"
+        name="Додати прив'язки"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="05c07e8b-3a63-42b1-aa0c-ce11ac43e48e">
+            <useCaseMoniker
+              Id="82df7c91-dd93-44d6-b329-4b3dd746d062"
+              LastKnownName="Додати криві"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0e6b380d-82b5-4b41-beb2-51c88c641b55"
+        name="Додати розміри"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="e5ab5ae2-5a40-4f49-a440-2fd031eab38a">
+            <useCaseMoniker
+              Id="82df7c91-dd93-44d6-b329-4b3dd746d062"
+              LastKnownName="Додати криві"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0bda05b4-b34c-4c92-804c-f9ce172302de"
+        name="Додати валідацію"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="3e3560d4-19eb-40a0-9974-db244d516ca1">
+            <useCaseMoniker
+              Id="0e6b380d-82b5-4b41-beb2-51c88c641b55"
+              LastKnownName="Додати розміри"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b697331-2e18-4631-b679-2deea9f23474"
+        name="Модифікувати скеч"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f9cb0a87-2325-4600-be99-84606ae9d1fd">
+            <useCaseMoniker
+              Id="b3c89a06-e67c-4a62-b989-bde8d335e88d"
+              LastKnownName="Створити скеч"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3ba9bcfd-7093-4d1b-a2c7-396093b77d2b"
+        name="Створити надбудову"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5cc67c85-2417-4ccc-82b1-6901a6a9c180">
+            <useCaseMoniker
+              Id="b319393b-339b-44af-af3f-7603c6426da3"
+              LastKnownName="Створити структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3f04d180-ac16-453d-b28b-ca0441c57646"
+        name="Розширити функціонал"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="55cdfd07-d761-4aba-b7b6-b5d7c9c65a9a"
+        name="Перевантажити метод створення"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="f0b0409a-4897-409c-83ac-ee9ba23024ab">
+            <useCaseMoniker
+              Id="3f04d180-ac16-453d-b28b-ca0441c57646"
+              LastKnownName="Розширити функціонал"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8970ad50-81ea-47a0-b7fc-3a48dddb13df"
+        name="Побудувати в SolidWorks"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="fbb01803-a937-4d1a-b628-6689ae8a1da8">
+            <useCaseMoniker
+              Id="47530330-0247-4665-bdf3-72ad754c336a"
+              LastKnownName="Відкрити структуру"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2e856cd1-139d-4019-8230-a308209b78ae"
+        name="Параметрезувати модель"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="87cfccab-1ddf-48db-ae71-4c4f8fea198a">
+            <useCaseMoniker
+              Id="8970ad50-81ea-47a0-b7fc-3a48dddb13df"
+              LastKnownName="Побудувати в SolidWorks"
+              LastKnownLocation="ДіаграмиВиконання.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c85c9225-d65c-4302-b27f-6476e9659387"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
