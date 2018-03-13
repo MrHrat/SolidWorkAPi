@@ -100,28 +100,59 @@ namespace GreenArrow
             else
                 MessageBox.Show(message);
         }
+
+        //змінити матеріал
+        public void ChangeMaterial(ComboBox namematerial)
+        {
+            if (obj != null)
+            {
+                obj.material = namematerial.Text;
+                if (swModel != null)
+                    SmartTools.SetMaterial(swModel, namematerial.Text);
+            }
+            else MessageBox.Show("Загрузіть модель!");
+        }
+
+        //змінити матеріал
+        public void GivePropertiMass()
+        {
+            if (obj != null)
+            {
+                swModel.Extension.SelectByID2("Boss-Extrude1", "BODYFEATURE", 0, 0, 0, false, 0, null, 0); ;
+                swModel.ToolsMassProps();
+            }
+            else MessageBox.Show("Загрузіть модель!");
+        }
+
+        //змінити матеріал
+        public void LoadPNG(PictureBox pb)
+        {
+            if (obj != null)
+            {            
+                //@"C:\Users\Руслан\Desktop\GreenArrow\GreenArrow\Images\2017-03-27_073846.jpg"
+                if (obj.waysPng != null)
+                {
+                    Bitmap image = new Bitmap(obj.waysPng);                    
+                    pb.Size = image.Size;
+                    pb.Image = image;
+                    pb.Invalidate();
+                }
+            }
+            else MessageBox.Show("Загрузіть модель!");
+        }
     }
 
     [Serializable(), XmlInclude(typeof(Skeths)), XmlInclude(typeof(FeatureCut)), XmlInclude(typeof(FeatureRevolve)), XmlInclude(typeof(InsertFeatureChamfer)), XmlInclude(typeof(InsertAxis)), XmlInclude(typeof(FeatureCircularPattern))]
     public class Parts
     {
         public BindingList<Iitem> item;
+        public String material;
+        public String waysPng;
 
         public Parts()
         {
             item = new BindingList<Iitem>();
         }
-
-        public BilderParts BilderParts
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }        
 
         public void AddItem(Iitem skt)
         {
@@ -336,6 +367,18 @@ namespace GreenArrow
             }
 
             return obj;
+        }
+
+        public static void SetMaterial(ModelDoc2 swModel, String material = "Cast alloy steel")
+        {
+            PartDoc myswModel = (PartDoc)swModel;
+            myswModel.SetMaterialPropertyName2("Default", "C:/PROGRA~1/SOLIDW~1/SOLIDW~1/lang/english/sldmaterials/SolidWorks Materials.sldmat", material);
+        }
+
+        public static void ShowPropertiMass(ModelDoc2 swModel)
+        {
+                swModel.Extension.SelectByID2("Boss-Extrude1", "BODYFEATURE", 0, 0, 0, false, 0, null, 0); ;
+                swModel.ToolsMassProps();
         }
     }
 }

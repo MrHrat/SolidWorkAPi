@@ -32,6 +32,7 @@ namespace GreenArrow
             obj.OpenDialog();
             obj.FillupCombobox(comboBox2);
             obj.Resizedimention(comboBox2, textBox1);
+            obj.LoadPNG(pictureBox1);
         }
 
         private void зберегтиToolStripMenuItem_Click(object sender, EventArgs e)
@@ -75,6 +76,16 @@ namespace GreenArrow
         {
             Form2 obj = new Form2();
             obj.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            obj.GivePropertiMass();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            obj.ChangeMaterial(comboBox2);
         }
     }
 }

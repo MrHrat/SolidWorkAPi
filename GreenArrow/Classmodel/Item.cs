@@ -7,18 +7,7 @@ namespace GreenArrow
 {   
     [Serializable()]
     public abstract class Iitem
-    {
-        public Parts Parts
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-    
+    {    
         public abstract void Bild(ModelDoc2 swModel);
     }
 

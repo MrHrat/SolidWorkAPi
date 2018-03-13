@@ -210,6 +210,10 @@ namespace GreenArrow
             objpart.AddItem(obj7);
             objpart.AddItem(obj8);
 
+            objpart.waysPng = "./imeg/Основний диск.jpg";
+            objpart.material = "Основний диск.jpg";
+            SmartTools.SaveXML(objpart);
+
             return objpart;
         }
         #endregion
@@ -384,8 +388,16 @@ namespace GreenArrow
             obj1.Addholdon("sgHORIZONTAL2D", new string[] { "Line2", "Line4", "Line6", "Line8", "Line10", "Line12" });
             obj1.Addholdon("sgCOINCIDENT", new string[] { "Point1#SKETCHPOINT", "Line4" });
             obj1.Addholdon("sgCOINCIDENT", new string[] { "Point2#SKETCHPOINT", "Line6" });
-            obj1.Addholdon("sgCOINCIDENT", new string[] { "Line9", "Line13" });            
+            obj1.Addholdon("sgCOINCIDENT", new string[] { "Line9", "Line13" });
 
+            obj1.AddDimensions("L1", "D1@Sketch1", 44.0, 8.13358059348787E-03, 0, 7.12875694574078E-03, new string[] { "Line1", "Line3" });
+            obj1.AddDimensions("L2", "D1@Sketch1", 21.0, 3.4056735566341E-03, 0, -1.92129571977826E-02, new string[] { "Line1", "Line5" });
+            obj1.AddDimensions("L3", "D2@Sketch1", 30.0, 2.72143870036511E-03, 0, -2.90830620150508E-03, new string[] { "Line13" });
+            obj1.AddDimensions("L4", "D2@Sketch1", 10.0, 2.72143870036511E-03, 0, -9.99329195250215E-03, new string[] { "Line9" });
+            obj1.AddDimensions("M1", "D2@Sketch1", 4.0, 3.18763960577776E-03, 0, -8.53676563977858E-03, new string[] { "Line11" });
+            obj1.AddDimensions("M2", "D2@Sketch1", 1.0, -3.85714344927279E-03, 0, -7.05984340789838E-03, new string[] { "Line1" });
+            obj1.AddDimensions("M3", "D2@Sketch1", 14.0, 1.66259747521645E-03, 0, -1.41774040736871E-02, new string[] { "Line7" });
+            
             obj1 = new FeatureRevolve(obj1, true, true, false, false, false, false, 0, 0, 6.2831853071796, 0, false, false, 0.01, 0.01, 0, 0, 0, true, true, true);
 
             Skeths obj2 = new Skeths("Front Plane#PLANE##*Isometric$7");
@@ -413,6 +425,7 @@ namespace GreenArrow
             objpart.AddItem(obj4);
             objpart.AddItem(obj5);
 
+            SmartTools.SaveXML(objpart, "temlatestf");
             return objpart;
         }
         #endregion        

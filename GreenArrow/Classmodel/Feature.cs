@@ -134,7 +134,7 @@ namespace GreenArrow
         {
             base.Bild(swModel);
             swModel.ClearSelection2(true);
-            if (Sselect == null) base.SelectByAll();
+            if (Sselect == null || Sselect.Count == 0) base.SelectByAll();
             else SmartTools.SelectFromList(swModel, Sselect);
             swModel.FeatureManager.FeatureRevolve2(SingleDir,
                                                     IsSolid,

@@ -38,7 +38,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Пуск!";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -47,18 +47,18 @@
             this.textBox1.Location = new System.Drawing.Point(13, 13);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(878, 530);
+            this.textBox1.Size = new System.Drawing.Size(579, 530);
             this.textBox1.TabIndex = 1;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 584);
+            this.ClientSize = new System.Drawing.Size(605, 584);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Зчитати структуру кривих";
             this.ResumeLayout(false);
             this.PerformLayout();
 

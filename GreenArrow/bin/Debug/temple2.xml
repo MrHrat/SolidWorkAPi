@@ -550,6 +550,7 @@
       <Merge>true</Merge>
       <UseFeatScope>true</UseFeatScope>
       <UseAutoSelect>true</UseAutoSelect>
+      <Sselect />
     </Iitem>
     <Iitem xsi:type="FeatureCut">
       <line>
